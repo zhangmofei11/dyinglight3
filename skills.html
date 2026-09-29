@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Guide - Dying Light 3 Wiki</title>
+    <meta name="description" content="Complete Dying Light 3 skills guide. All skill trees, best builds, and ability progression for PS5 and PC.">
+    <meta name="keywords" content="Dying Light 3 skills, Dying Light 3 skill tree, Dying Light 3 builds, best abilities, DL3 guide">
+    <link rel="canonical" href="https://dyinglight3.wiki/skills.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dl: { 500: '#FF6B00', 600: '#E55A00', 700: '#CC4D00' },
+                        dark: { 900: '#0a0808', 800: '#141010', 700: '#1f1818' }
+                    },
+                    fontFamily: {
+                        'cinzel': ['Cinzel', 'serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background: linear-gradient(180deg, #0a0808 0%, #141010 50%, #0a0808 100%); min-height: 100vh; }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 10px 40px rgba(255, 107, 0, 0.3); }
+    </style>
+</head>
+<body class="font-inter text-gray-100">
+    <header class="bg-dark-900/80 backdrop-blur-md border-b border-gray-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="/" class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-to-br from-dl-500 to-dl-700 rounded-lg flex items-center justify-center">
+                        <span class="font-cinzel font-bold text-white text-lg">DL3</span>
+                    </div>
+                    <span class="font-cinzel font-bold text-xl text-white hidden sm:block">Dying Light 3</span>
+                </a>
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a href="/" class="text-gray-300 hover:text-dl-500 transition-colors">Home</a>
+                    <a href="walkthrough.html" class="text-gray-300 hover:text-dl-500 transition-colors">Walkthrough</a>
+                    <a href="weapons.html" class="text-gray-300 hover:text-dl-500 transition-colors">Weapons</a>
+                    <a href="skills.html" class="text-dl-500 hover:text-dl-400 transition-colors font-medium">Skills</a>
+                    <a href="bosses.html" class="text-gray-300 hover:text-dl-500 transition-colors">Bosses</a>
+                    <a href="tips.html" class="text-gray-300 hover:text-dl-500 transition-colors">Tips</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="mb-8">
+            <h1 class="font-cinzel text-4xl font-bold text-white mb-4">Skills Guide</h1>
+            <p class="text-gray-400">Master all skill trees and build your perfect survivor.</p>
+        </div>
+
+        <!-- Skill Trees -->
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Skill Trees</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <!-- Parkour Tree -->
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-green-500/30 p-6">
+                    <h3 class="font-cinzel text-xl font-bold text-green-400 mb-4">Parkour</h3>
+                    <p class="text-gray-400 text-sm mb-4">Movement and traversal abilities.</p>
+                    <ul class="text-gray-300 text-sm space-y-2">
+                        <li>• <span class="text-green-400">Quick Ladder</span> - Climb faster</li>
+                        <li>• <span class="text-green-400">Safe Landing</span> - Reduced fall damage</li>
+                        <li>• <span class="text-green-400">Wall Run</span> - Run along walls</li>
+                        <li>• <span class="text-green-400">Grapple Hook</span> - Swing across gaps</li>
+                        <li>• <span class="text-green-400">Free Running</span> - Faster parkour movement</li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-gray-700/50">
+                        <p class="text-gray-500 text-xs">Best for: Exploration, evasion, traversal</p>
+                    </div>
+                </div>
+
+                <!-- Combat Tree -->
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-red-500/30 p-6">
+                    <h3 class="font-cinzel text-xl font-bold text-red-400 mb-4">Combat</h3>
+                    <p class="text-gray-400 text-sm mb-4">Fighting and melee abilities.</p>
+                    <ul class="text-gray-300 text-sm space-y-2">
+                        <li>• <span class="text-red-400">Power Strikes</span> - Heavier attack damage</li>
+                        <li>• <span class="text-red-400">Critical Strike</span> - Chance for 2x damage</li>
+                        <li>• <span class="text-red-400">Combat Reset</span> - Reset combos on kill</li>
+                        <li>• <span class="text-red-400">Shield Master</span> - Block and counter</li>
+                        <li>• <span class="text-red-400">Beast Mode Boost</span> - Extended Beast duration</li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-gray-700/50">
+                        <p class="text-gray-500 text-xs">Best for: Direct confrontation, boss fights</p>
+                    </div>
+                </div>
+
+                <!-- Survival Tree -->
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-blue-500/30 p-6">
+                    <h3 class="font-cinzel text-xl font-bold text-blue-400 mb-4">Survival</h3>
+                    <p class="text-gray-400 text-sm mb-4">Health, crafting, and resources.</p>
+                    <ul class="text-gray-300 text-sm space-y-2">
+                        <li>• <span class="text-blue-400">Ninja</span> - Quieter movement</li>
+                        <li>• <span class="text-blue-400">Medic</span> - Faster healing</li>
+                        <li>• <span class="text-blue-400">Lucky</span> - Better loot drops</li>
+                        <li>• <span class="text-blue-400">Craftsman</span> - Reduced material costs</li>
+                        <li>• <span class="text-blue-400">Night Vision</span> - See in darkness</li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-gray-700/50">
+                        <p class="text-gray-500 text-xs">Best for: Night gameplay, resource management</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recommended Builds -->
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Recommended Builds</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="bg-dark-800/80 rounded-xl border border-green-500/30 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-green-400 mb-4">Parkour Master Build</h3>
+                    <p class="text-gray-400 text-sm mb-3">Maximize mobility and evasion.</p>
+                    <ul class="text-gray-300 text-sm space-y-1">
+                        <li>• <span class="text-white">Parkour:</span> 15 points (max)</li>
+                        <li>• <span class="text-white">Survival:</span> 8 points</li>
+                        <li>• <span class="text-white">Combat:</span> 5 points</li>
+                    </ul>
+                    <p class="text-gray-500 text-xs mt-3">Playstyle: Run past enemies, complete missions stealthily</p>
+                </div>
+
+                <div class="bg-dark-800/80 rounded-xl border border-red-500/30 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-red-400 mb-4">Combat God Build</h3>
+                    <p class="text-gray-400 text-sm mb-3">Destroy everything in your path.</p>
+                    <ul class="text-gray-300 text-sm space-y-1">
+                        <li>• <span class="text-white">Combat:</span> 15 points (max)</li>
+                        <li>• <span class="text-white">Survival:</span> 10 points</li>
+                        <li>• <span class="text-white">Parkour:</span> 3 points</li>
+                    </ul>
+                    <p class="text-gray-500 text-xs mt-3">Playstyle: Fight every horde, use Beast Mode often</p>
+                </div>
+
+                <div class="bg-dark-800/80 rounded-xl border border-blue-500/30 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-blue-400 mb-4">Night Runner Build</h3>
+                    <p class="text-gray-400 text-sm mb-3">Perfect for nighttime missions.</p>
+                    <ul class="text-gray-300 text-sm space-y-1">
+                        <li>• <span class="text-white">Survival:</span> 12 points</li>
+                        <li>• <span class="text-white">Parkour:</span> 10 points</li>
+                        <li>• <span class="text-white">Combat:</span> 6 points</li>
+                    </ul>
+                    <p class="text-gray-500 text-xs mt-3">Playstyle: Night missions, loot hunting, stealth</p>
+                </div>
+
+                <div class="bg-dark-800/80 rounded-xl border border-yellow-500/50 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-yellow-400 mb-4">Beast Master Build</h3>
+                    <p class="text-gray-400 text-sm mb-3">Optimized for Beast Mode damage.</p>
+                    <ul class="text-gray-300 text-sm space-y-1">
+                        <li>• <span class="text-white">Combat:</span> 12 points</li>
+                        <li>• <span class="text-white">Beast:</span> 10 points</li>
+                        <li>• <span class="text-white">Survival:</span> 6 points</li>
+                    </ul>
+                    <p class="text-gray-500 text-xs mt-3">Playstyle: Save Beast Mode for tough encounters</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Beast Mode -->
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Beast Mode Abilities</h2>
+            <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                <p class="text-gray-400 text-sm mb-4">Beast Mode is unlocked in Act 4. While active, you become invincible and deal massive damage with claw attacks.</p>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4 text-sm">
+                    <div class="text-center p-3 bg-dark-700/50 rounded">
+                        <div class="text-yellow-400 font-bold">Duration</div>
+                        <div class="text-gray-500 text-xs">30 seconds base</div>
+                    </div>
+                    <div class="text-center p-3 bg-dark-700/50 rounded">
+                        <div class="text-yellow-400 font-bold">Cooldown</div>
+                        <div class="text-gray-500 text-xs">5 minutes</div>
+                    </div>
+                    <div class="text-center p-3 bg-dark-700/50 rounded">
+                        <div class="text-yellow-400 font-bold">Damage</div>
+                        <div class="text-gray-500 text-xs">200% melee</div>
+                    </div>
+                    <div class="text-center p-3 bg-dark-700/50 rounded">
+                        <div class="text-yellow-400 font-bold">Health Regen</div>
+                        <div class="text-gray-500 text-xs">Full while active</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark-900 border-t border-gray-800 py-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Dying Light 3 Wiki. Not affiliated with Techland.</p>
+        </div>
+    </footer>
+</body>
+</html>

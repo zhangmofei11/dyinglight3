@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dying Light 3 Wiki - Complete Guide & Walkthrough</title>
+    <meta name="description" content="Your ultimate guide to Dying Light 3 (The Beast). Combat, parkour, weapons, skill builds, and survival tips for PS5 and PC.">
+    <meta name="keywords" content="Dying Light 3 guide, Dying Light 3 wiki, Dying Light The Beast guide, Dying Light 3 walkthrough, Dying Light 3 skills">
+    <link rel="canonical" href="https://dyinglight3.wiki/">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dl: { 500: '#FF6B00', 600: '#E55A00', 700: '#CC4D00' },
+                        dark: { 900: '#0a0808', 800: '#141010', 700: '#1f1818' }
+                    },
+                    fontFamily: {
+                        'cinzel': ['Cinzel', 'serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background: linear-gradient(180deg, #0a0808 0%, #141010 50%, #0a0808 100%); min-height: 100vh; }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 10px 40px rgba(255, 107, 0, 0.3); }
+    </style>
+</head>
+<body class="font-inter text-gray-100">
+    <!-- Header -->
+    <header class="bg-dark-900/80 backdrop-blur-md border-b border-gray-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="/" class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-to-br from-dl-500 to-dl-700 rounded-lg flex items-center justify-center">
+                        <span class="font-cinzel font-bold text-white text-lg">DL3</span>
+                    </div>
+                    <span class="font-cinzel font-bold text-xl text-white hidden sm:block">Dying Light 3</span>
+                </a>
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a href="/" class="text-dl-500 hover:text-dl-400 transition-colors font-medium">Home</a>
+                    <a href="walkthrough.html" class="text-gray-300 hover:text-dl-500 transition-colors">Walkthrough</a>
+                    <a href="weapons.html" class="text-gray-300 hover:text-dl-500 transition-colors">Weapons</a>
+                    <a href="skills.html" class="text-gray-300 hover:text-dl-500 transition-colors">Skills</a>
+                    <a href="bosses.html" class="text-gray-300 hover:text-dl-500 transition-colors">Bosses</a>
+                    <a href="tips.html" class="text-gray-300 hover:text-dl-500 transition-colors">Tips</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-dl-600/20 via-transparent to-orange-900/10"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative">
+            <div class="text-center mb-12">
+                <h1 class="font-cinzel text-5xl md:text-6xl font-bold text-white mb-4">
+                    Dying Light <span class="text-dl-500">3</span>
+                </h1>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    Survive the infected apocalypse. Complete guide to combat, parkour, and crafting.
+                </p>
+            </div>
+
+            <!-- Quick Facts -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+                <div class="bg-dark-800/80 rounded-xl border border-dl-500/30 p-4 text-center">
+                    <div class="text-2xl font-bold text-dl-500">Aug 22, 2025</div>
+                    <div class="text-gray-400 text-sm">Release Date</div>
+                </div>
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-4 text-center">
+                    <div class="text-2xl font-bold text-white">PS5, PC, Xbox</div>
+                    <div class="text-gray-400 text-sm">Platforms</div>
+                </div>
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-4 text-center">
+                    <div class="text-2xl font-bold text-white">Open World</div>
+                    <div class="text-gray-400 text-sm">Castor Woods</div>
+                </div>
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-4 text-center">
+                    <div class="text-2xl font-bold text-white">Beast Mode</div>
+                    <div class="text-gray-400 text-sm">New Ability</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Features -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Game Features</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                <div class="text-4xl mb-3">🏃</div>
+                <h3 class="font-cinzel text-lg font-bold text-white mb-2">Parkour Master</h3>
+                <p class="text-gray-400 text-sm">Enhanced parkour mechanics. Wall running, grapple hook, and fluid movement through urban environments.</p>
+            </div>
+            <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                <div class="text-4xl mb-3">🧟</div>
+                <h3 class="font-cinzel text-lg font-bold text-white mb-2">Infected Survival</h3>
+                <p class="text-gray-400 text-sm">Day/night cycle affects infected behavior. Night is deadlier but rewards are greater.</p>
+            </div>
+            <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                <div class="text-4xl mb-3">⚔️</div>
+                <h3 class="font-cinzel text-lg font-bold text-white mb-2">Beast Mode</h3>
+                <p class="text-gray-400 text-sm">Unlockable powerful ability. Become temporarily invincible with devastating melee attacks.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Explore Guides</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <a href="walkthrough.html" class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 overflow-hidden">
+                <div class="h-32 bg-gradient-to-br from-dl-500/20 to-dark-900 flex items-center justify-center">
+                    <span class="text-5xl">📜</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-cinzel text-lg font-bold text-white mb-1">Walkthrough</h3>
+                    <p class="text-gray-400 text-sm">Complete story walkthrough with all missions</p>
+                </div>
+            </a>
+
+            <a href="weapons.html" class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 overflow-hidden">
+                <div class="h-32 bg-gradient-to-br from-red-500/20 to-dark-900 flex items-center justify-center">
+                    <span class="text-5xl">🔧</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-cinzel text-lg font-bold text-white mb-1">Weapons</h3>
+                    <p class="text-gray-400 text-sm">Crafting, blueprints, and best weapons guide</p>
+                </div>
+            </a>
+
+            <a href="skills.html" class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 overflow-hidden">
+                <div class="h-32 bg-gradient-to-br from-yellow-500/20 to-dark-900 flex items-center justify-center">
+                    <span class="text-5xl">📊</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-cinzel text-lg font-bold text-white mb-1">Skills</h3>
+                    <p class="text-gray-400 text-sm">Skill trees and best builds</p>
+                </div>
+            </a>
+
+            <a href="bosses.html" class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 overflow-hidden">
+                <div class="h-32 bg-gradient-to-br from-purple-500/20 to-dark-900 flex items-center justify-center">
+                    <span class="text-5xl">👹</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-cinzel text-lg font-bold text-white mb-1">Boss Guides</h3>
+                    <p class="text-gray-400 text-sm">Defeat every boss with proven strategies</p>
+                </div>
+            </a>
+
+            <a href="collectibles.html" class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 overflow-hidden">
+                <div class="h-32 bg-gradient-to-br from-blue-500/20 to-dark-900 flex items-center justify-center">
+                    <span class="text-5xl">💎</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-cinzel text-lg font-bold text-white mb-1">Collectibles</h3>
+                    <p class="text-gray-400 text-sm">All collectibles and unlockables</p>
+                </div>
+            </a>
+
+            <a href="tips.html" class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 overflow-hidden">
+                <div class="h-32 bg-gradient-to-br from-green-500/20 to-dark-900 flex items-center justify-center">
+                    <span class="text-5xl">💡</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-cinzel text-lg font-bold text-white mb-1">Tips & Tricks</h3>
+                    <p class="text-gray-400 text-sm">Essential survival tips for new players</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark-900 border-t border-gray-800 py-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Dying Light 3 Wiki. Not affiliated with Techland.</p>
+        </div>
+    </footer>
+</body>
+</html>
